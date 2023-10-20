@@ -1,0 +1,147 @@
+body {
+	font-size: 16px;
+	font-family: arial;
+	color: rgb(0, 0, 0, 1.0);
+	margin: 0em;
+	padding: 0em;
+	background: rgb(0, 0, 0, 0.0);
+}
+cards {
+	font-size: 16px;
+	font-family: arial;
+	color: rgb(0, 0, 0, 1.0);
+	margin: 0em;
+	padding: 0em;
+	background: rgb(0, 0, 0, 0.0);
+}
+card {
+	font-size: 1em;
+	font-family: arial;
+	margin: 0em;
+	padding: 0em;
+	border-radius: .3em;
+	border-style: solid;
+	border-width: 7px;
+	position: absolute;
+	display: block;
+	height: 396px;
+	width: 289px;
+}
+uuid {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-left-radius: .2em;
+	border-bottom-right-radius: .2em;
+	display: block;
+	position: absolute;
+	top: 32px;
+	left: 16px;
+	width: 256px;
+	height: 16px;
+}
+name {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: .2em;
+	border-top-right-radius: .2em;
+	display: block;
+	position: absolute;
+	top: 56px;
+	left: 72px;
+	width: 200px;
+	height: 32px;
+}
+anime {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: .2em;
+	display: block;
+	position: absolute;
+	top: 112px;
+	left: 16px;
+	width: 128px;
+	height: 128px;
+}
+icon {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: .2em;
+	position: absolute;
+	display: block;
+	top: 56px;
+	left: 16px;
+	width: 48px;
+	height: 48px;
+}
+kind {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-right-radius: .2em;
+	position: absolute;
+	top: 89px;
+	left: 88px;
+	height: 15px;
+	width: 184px;
+}
+tier {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-left-radius: .2em;
+	position: absolute;
+	top: 89px;
+	left: 72px;
+	height: 15px;
+	width: 15px;
+}
+descript {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: .2em;
+	position: absolute;
+	display: block;
+	top: 248px;
+	left: 16px;
+	width: 256px;
+	height: 128px;
+}
+parm {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: .2em;
+	position: absolute;
+	top: 112px;
+	left: 152px;
+	height: 128px;
+	width: 120px;
+	overscroll-behavior-y: auto;
+}
+price {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-top-right-radius: .2em;
+	position: absolute;
+	top: 16px;
+	left: 148px;
+	height: 15px;
+	width: 124px;
+}
+currency {
+	padding: 0em;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: .2em;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	height: 15px;
+	width: 132px;
+}

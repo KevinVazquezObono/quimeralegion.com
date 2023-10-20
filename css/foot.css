@@ -1,0 +1,20 @@
+footer {
+  position: relative;
+  font-size: 1em;
+  width: 100%;
+  margin: %5 0px 0px 0px;
+}
+article.footer
+{
+  width:100%;
+  background-color: rgba(254,128,0,0.7);
+  margin: 0px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+img.footer
+{
+  margin-right: 2em;
+}

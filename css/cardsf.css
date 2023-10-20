@@ -1,0 +1,41 @@
+hr {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+section {
+	font-size: 16px;
+	position: relative;
+	display: block;
+	top: 7px;
+	left: 320px;
+}
+label {
+	color: rgb(133, 133, 133);
+	font-family: monospace;
+	font-size: .7em;
+}
+prompt {
+	color: rgb(133, 133, 133);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(118, 118, 118);
+	display: block;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	width: 526px;
+	height: 86px;
+}
+p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: fantasy;
+	font-size: .7em;
+}
+aside {
+	position: absolute;
+	display: block;
+	top: 24px;
+	left: 550px;
+}

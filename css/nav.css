@@ -1,0 +1,120 @@
+.nav {
+  width: 100$;
+  margin: 0px;
+  margin-bottom: 32px;
+  background-color: rgba(254,128,0,0.7);
+  border-top-color: rgba(196,196,196,0.7);
+  border-right-color: rgba(0,0,0,0.7);
+  border-bottom-color: rgba(0,0,0,0.7);
+  border-left-color: rgba(196,196,196,0.7);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.nav:hover {
+  width: 100$;
+  margin: 0px;
+  margin-bottom: 32px;
+  background-color: rgba(254,128,0,0.7);
+  border-top-color: rgba(196,196,196,0.7);
+  border-right-color: rgba(0,0,0,0.7);
+  border-bottom-color: rgba(0,0,0,0.7);
+  border-left-color: rgba(196,196,196,0.7);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+nav ul {
+  position: relative;
+  display: inline-flex;
+  visibility: visible;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1px 1px 1px 1px;
+  padding: 8px 8px 8px 8px;
+}
+nav li {
+  position: relative;
+  display: inline-block;
+  visibility: visible;
+  text-decoration: none;
+}
+nav li:hover {
+  position: relative;
+  display: inline-flex;
+  visibility: visible;
+  text-decoration: none;
+}
+li article {
+  position: relative;
+  display: none;
+}
+li li:hover {
+  position: relative;
+  display: block;
+  visibility: visible;
+}
+li article:hover {
+  position: relative;
+  display: block;
+  visibility: visible;
+}
+section.left {
+  position: absolute;
+  left: 1%;
+  width: 40%;
+  float: left;
+}
+section.right {
+  position: relative;
+  right: 1%;
+  width: 60%;
+  float: right;
+}
+article i {
+  display: none;
+}
+article:hover i {
+  display: inline-block;
+}
+a.menuicon:link {
+  margin: .5em;
+  align-content: center;
+  color: rgba(255,128,0,0.7);
+  height: 32px;
+  text-decoration: none;
+}
+a.menuicon:visited {
+  margin: .5em;
+  align-content: center;
+  color: rgba(255,128,0,0.7);
+  height: 32px;
+  text-decoration: none;
+}
+a.menuicon:hover {
+  margin: .5em;
+  align-content: center;
+  color: rgba(255,128,0,0.7);
+  height: 32px;
+  text-decoration: none;
+}
+a.menuicon:active {
+  margin: .5em;
+  align-content: center;
+  color: rgba(255,128,0,0.7);
+  height: 32px;
+  text-decoration: none;
+}
+a > article {
+  background: rgba(254,128,0,0.7);
+}
+a > article:hover {
+  background: rgba(64, 64, 251, 0.7);
+}
+a > img {
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+}
